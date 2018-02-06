@@ -1,0 +1,86 @@
+body{
+  background: url(https://i.pinimg.com/originals/8f/de/c2/8fdec20382cec5c1c1ed26abed0c8010.jpg) no-repeat center center fixed;
+}
+
+fieldset{
+  border: 0;
+}
+
+label{
+  display: block;
+}
+
+.current-result{
+  height: 20px;
+}
+
+header{
+	color: white;
+	text-align: center;
+}
+
+main{
+	font-size: 25px;
+	color: white;
+	width: 500px;
+	height: 500px;
+	background: url(https://s3.envato.com/files/1779241/basketball%20video%20preview.png) no-repeat center center fixed;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.current-question{
+	width: 100px;
+	height: 70px;
+	background-color: #083687;
+	position: absolute;
+	text-align: center;
+}
+
+.current-score{
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+	background-color: #830022;
+	margin: 0 400px;
+	text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.submit-answer{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.end-game{
+	position: absolute;
+	top: 450px;
+	left: 200px;
+}
+
+.question{
+	height: 40px;
+}
